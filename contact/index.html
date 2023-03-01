@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="../style.css?2528">
 	<link rel="stylesheet" type="text/css" href="../css/animate.min.css?9797">
 	
-    <title>About</title>
+    <title>Contact</title>
 
 
     
@@ -53,13 +53,13 @@
 										<a href="../" class="nav-link">News</a>
 									</li>
 									<li class="nav-item">
-										<a href="." class="nav-link">About</a>
+										<a href="../about/" class="nav-link">About</a>
 									</li>
 									<li class="nav-item">
 										<a href="../" class="nav-link">Contact</a>
 									</li>
 									<li class="nav-item">
-										<a href="../contact/" class="a-btn nav-link">Contact</a>
+										<a href="." class="a-btn nav-link">Contact</a>
 									</li>
 								</ul>
 							</div>
@@ -72,29 +72,45 @@
 <!-- navigation END -->
 
 </header>
-<main>
-
-<!-- about -->
-<div class="bloc bgc-5489 l-bloc" id="about">
-	<div class="container bloc-md">
+<!-- bloc-5 -->
+<div class="bloc l-bloc " id="bloc-5">
+	<div class="container bloc-lg">
 		<div class="row">
-			<div class="col-sm-10 offset-sm-1 text-md-start col-lg-8 offset-lg-2 bgc-3022 pt-4 pb-4 ps-4 pe-4 pt-lg-5 pb-lg-5 ps-lg-5 pe-lg-5 mb-4 text-start text-sm-start col-md-10 offset-md-1">
-				<h2 class="mb-4 tc-4088 page-heading">
-					About the Sale
-				</h2><picture><source type="image/webp" srcset="../img/lazyload-ph.png" data-srcset="../img/Screen%20Shot%202023-03-01%20at%204.46.06%20PM.webp"><img class="img-fluid mb-4 mb-lg-5 lazyload" src="../img/lazyload-ph.png" data-src="../img/Screen%20Shot%202023-03-01%20at%204.46.06%20PM.png" alt="about me"></picture>
-				<p>
-					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-				</p><a href="mailto:guytalley@gmail.com" class="btn float-lg-none btn-d primary-btn btn-sq">Contact Us via Email</a>
-			</div>
-			<div class="offset-lg-2 col-lg-8 pe-0 ps-0 col-sm-10 offset-sm-1">
-				<a href="../" class="a-btn a-block text-lg-center box-links primary-full-stop ">Go to Garage Sale</a>
+			<div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+				<form data-clean-url-used="true" id="form_42124" data-form-type="blocs-form" action="custom-action-url" method="GET">
+					<div class="form-group mb-3">
+						<label class="form-label">
+							Name
+						</label>
+						<input id="name_42124" class="form-control" required="" name="name_42124">
+					</div>
+					<div class="form-group mb-3">
+						<label class="form-label">
+							Email
+						</label>
+						<input id="email_42124" class="form-control" type="email" data-error-validation-msg="Not a valid email address" required="" name="email_42124">
+					</div>
+					<div class="form-group mb-3">
+						<label class="form-label">
+							Message
+						</label><textarea id="message_42124" class="form-control" rows="4" cols="50" required="" name="message_42124"></textarea>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" type="checkbox" id="optin_42124" name="optin_42124">
+						<label class="form-check-label">
+							We can send you product updates and offers via email. It is possible to opt-out at any time.
+						</label>
+					</div> 
+					<button class="bloc-button btn btn-d btn-lg w-100" type="submit">
+						Submit
+					</button>
+				</form>
 			</div>
 		</div>
 	</div>
 </div>
-<!-- about END -->
+<!-- bloc-5 END -->
 
-</main>
 <!-- ScrollToTop Button -->
 <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path class="scroll-to-top-btn-icon" d="M30,22.656l-14-13-14,13"/></svg></a>
 <!-- ScrollToTop Button END-->
@@ -134,10 +150,15 @@
     
 
 
-<!-- Additional JS -->
+<!-- Additional JS --><script src="../js/jquery.min.js"></script>
+
+
 <script src="../js/bootstrap.bundle.min.js?4333"></script>
 <script src="../js/blocs.min.js?7142"></script>
-<script src="../js/lazysizes.min.js" defer></script><!-- Additional JS END -->
+<script src="../js/jqBootstrapValidation.js"></script>
+<script src="../js/formHandler.js?4373"></script>
+<script src="../js/lazysizes.min.js" defer></script>
+<!-- Additional JS END -->
 
 
 </body>
