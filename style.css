@@ -327,6 +327,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .navbar-brand img{
 	width:50px;
 }
+.h4-style{
+	font-size:20px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
